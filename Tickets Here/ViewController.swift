@@ -13,11 +13,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var credentialsSwitch: UISwitch!
+    @IBOutlet weak var logo: UIImageView!
+    @IBOutlet weak var signinButton: UIButton!
+    @IBOutlet weak var themeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        
     }
 
 

@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3629A16229EAEF12009643CE /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629A16129EAEF12009643CE /* MovieListViewController.swift */; };
+		3629A16429EAF978009643CE /* MovieDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629A16329EAF978009643CE /* MovieDB.swift */; };
+		3629A16629EAF998009643CE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629A16529EAF998009643CE /* Movie.swift */; };
+		3629A16B29EAFA6A009643CE /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629A16A29EAFA6A009643CE /* MovieDetailViewController.swift */; };
+		3629A16D29EB022B009643CE /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629A16C29EB022B009643CE /* MovieCollectionViewCell.swift */; };
+		3629A17029EB6728009643CE /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 3629A16F29EB6728009643CE /* movies.json */; };
+		3629A17229EC8897009643CE /* TicketBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629A17129EC8897009643CE /* TicketBookViewController.swift */; };
 		366C5D1729CFA038008C2FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C5D1629CFA038008C2FDD /* AppDelegate.swift */; };
 		366C5D1929CFA038008C2FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C5D1829CFA038008C2FDD /* SceneDelegate.swift */; };
 		366C5D1B29CFA038008C2FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C5D1A29CFA038008C2FDD /* ViewController.swift */; };
 		366C5D1E29CFA038008C2FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366C5D1C29CFA038008C2FDD /* Main.storyboard */; };
 		366C5D2029CFA038008C2FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366C5D1F29CFA038008C2FDD /* Assets.xcassets */; };
 		366C5D2329CFA038008C2FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366C5D2129CFA038008C2FDD /* LaunchScreen.storyboard */; };
+		36744E3D29E9CBEB00614D39 /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36744E3C29E9CBEB00614D39 /* theme.swift */; };
+		36ADE5F229EC8E4200627048 /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ADE5F129EC8E4200627048 /* SelectLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3629A16129EAEF12009643CE /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		3629A16329EAF978009643CE /* MovieDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB.swift; sourceTree = "<group>"; };
+		3629A16529EAF998009643CE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3629A16A29EAFA6A009643CE /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		3629A16C29EB022B009643CE /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		3629A16F29EB6728009643CE /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		3629A17129EC8897009643CE /* TicketBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookViewController.swift; sourceTree = "<group>"; };
 		366C5D1329CFA038008C2FDD /* Tickets Here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tickets Here.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		366C5D1629CFA038008C2FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		366C5D1829CFA038008C2FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,8 @@
 		366C5D1F29CFA038008C2FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366C5D2229CFA038008C2FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366C5D2429CFA038008C2FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36744E3C29E9CBEB00614D39 /* theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		36ADE5F129EC8E4200627048 /* SelectLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3629A16029EAEED3009643CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3629A16129EAEF12009643CE /* MovieListViewController.swift */,
+				3629A16A29EAFA6A009643CE /* MovieDetailViewController.swift */,
+				3629A17129EC8897009643CE /* TicketBookViewController.swift */,
+				36ADE5F129EC8E4200627048 /* SelectLocationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3629A16E29EB17A2009643CE /* CellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3629A16C29EB022B009643CE /* MovieCollectionViewCell.swift */,
+			);
+			path = CellClasses;
+			sourceTree = "<group>";
+		};
 		366C5D0A29CFA038008C2FDD = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +93,9 @@
 		366C5D1529CFA038008C2FDD /* Tickets Here */ = {
 			isa = PBXGroup;
 			children = (
+				3629A16E29EB17A2009643CE /* CellClasses */,
+				3629A16029EAEED3009643CE /* ViewControllers */,
+				36744E3B29E9CBD700614D39 /* Utils */,
 				366C5D1629CFA038008C2FDD /* AppDelegate.swift */,
 				366C5D1829CFA038008C2FDD /* SceneDelegate.swift */,
 				366C5D1A29CFA038008C2FDD /* ViewController.swift */,
@@ -63,8 +103,19 @@
 				366C5D1F29CFA038008C2FDD /* Assets.xcassets */,
 				366C5D2129CFA038008C2FDD /* LaunchScreen.storyboard */,
 				366C5D2429CFA038008C2FDD /* Info.plist */,
+				3629A16329EAF978009643CE /* MovieDB.swift */,
+				3629A16529EAF998009643CE /* Movie.swift */,
+				3629A16F29EB6728009643CE /* movies.json */,
 			);
 			path = "Tickets Here";
+			sourceTree = "<group>";
+		};
+		36744E3B29E9CBD700614D39 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36744E3C29E9CBEB00614D39 /* theme.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +178,7 @@
 			files = (
 				366C5D2329CFA038008C2FDD /* LaunchScreen.storyboard in Resources */,
 				366C5D2029CFA038008C2FDD /* Assets.xcassets in Resources */,
+				3629A17029EB6728009643CE /* movies.json in Resources */,
 				366C5D1E29CFA038008C2FDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3629A16629EAF998009643CE /* Movie.swift in Sources */,
+				3629A16429EAF978009643CE /* MovieDB.swift in Sources */,
 				366C5D1B29CFA038008C2FDD /* ViewController.swift in Sources */,
+				3629A16229EAEF12009643CE /* MovieListViewController.swift in Sources */,
+				3629A16B29EAFA6A009643CE /* MovieDetailViewController.swift in Sources */,
+				36744E3D29E9CBEB00614D39 /* theme.swift in Sources */,
+				3629A16D29EB022B009643CE /* MovieCollectionViewCell.swift in Sources */,
+				36ADE5F229EC8E4200627048 /* SelectLocationViewController.swift in Sources */,
+				3629A17229EC8897009643CE /* TicketBookViewController.swift in Sources */,
 				366C5D1729CFA038008C2FDD /* AppDelegate.swift in Sources */,
 				366C5D1929CFA038008C2FDD /* SceneDelegate.swift in Sources */,
 			);
