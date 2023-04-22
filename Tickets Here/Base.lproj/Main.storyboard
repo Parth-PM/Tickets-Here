@@ -470,6 +470,9 @@
                         <viewLayoutGuide key="safeArea" id="dEl-Hn-pIf"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="NLG-bb-H1v" id="3KS-vU-CFs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29i-x3-qUP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -501,7 +504,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YMH-bY-7za"/>
+        <segue reference="RAI-0Z-x9D"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Logo" width="1648" height="1080"/>
